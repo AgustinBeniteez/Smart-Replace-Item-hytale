@@ -1,0 +1,18 @@
+{
+  "Group": "com.agustheking",
+  "Name": "Smart Replace Item",
+  "Version": "1.0.0",
+  "Description": "Automatically replaces the block in your hand when it's used up. Code: AgusTheKing",
+  "Authors": [
+    {
+      "Name": "AgusTheKing"
+    }
+  ],
+  "Website": "",
+  "Main": "com.agustheking.smartreplaceitem.SmartReplaceItem",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false
+}
+

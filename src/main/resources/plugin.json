@@ -1,0 +1,7 @@
+{
+  "name": "Smart Replace Item",
+  "version": "1.0.0",
+  "main": "com.agustheking.smartreplaceitem.SmartReplaceItem",
+  "author": "AgusTheKing",
+  "description": "Automatically replaces depleted items in hand from inventory."
+}

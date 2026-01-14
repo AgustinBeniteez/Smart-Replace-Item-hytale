@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.agustheking'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Hytale Server API (Must be placed in libs folder)
+    compileOnly files('libs/HytaleServer.jar')
+    
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
